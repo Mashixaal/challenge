@@ -10,10 +10,78 @@
     color: #800000;
 }
 
-.text-brown-200 {
+.text-brown-100 {
     color:#800000
 }
 
-.text-red {
+.text-red-200 {
     color: #ff0000;
+}
+
+
+.grid {
+    display: grid;
+}
+
+.grid-col-2 {
+    grid-template-columns: 25% 75%;
+}
+
+.flex {
+    display: flex;   
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.flex-col {
+    flex-direction: column;
+}
+
+.w-screen {
+    width: 100%;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.list-non {
+    list-style-type: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pr-8 {
+    padding-right: 2rem;
+}
+
+.no-underlign {
+    text-emphasis: none;
+}
+
+.my-48 {
+    margin-bottom: 18em;
+}
+
+
+.mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.upercase {
+    text-transform: uppercase;
+}
+
+.text-lg {
+    font-size: 2rem;
 }
